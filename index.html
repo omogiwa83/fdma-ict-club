@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favoured Destinies Montessori Academy ICT Club</title>
+  <style>
+    :root {
+      --school-blue: #87D3E0;
+      --school-red: #E63946;
+      --school-yellow: #FFD700;
+      --dark: #222;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Arial, sans-serif; }
+    body { line-height: 1.6; color: #333; }
+    
+    header { 
+      background: var(--school-blue); 
+      color: var(--school-red); 
+      padding: 20px 0; 
+      text-align: center;
+      border-bottom: 5px solid var(--school-red);
+    }
+    header img { width: 90px; height: 90px; border-radius: 50%; border: 3px solid var(--school-red); }
+    header h1 { margin-top: 10px; font-size: 1.8rem; }
+    
+    nav { background: var(--school-red); padding: 12px; text-align: center; }
+    nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+    nav a:hover { color: var(--school-yellow); }
+    
+   .container { width: 90%; max-width: 1100px; margin: auto; padding: 40px 0; }
+   
+   .hero { 
+     background: linear-gradient(rgba(135,211,224,0.8), rgba(135,211,224,0.8)), url('ict-banner.jpg') center/cover; 
+     color: var(--dark); 
+     text-align: center; 
+     padding: 100px 20px; 
+   }
+   .hero h1 { font-size: 2.5rem; color: var(--school-red); }
+   
+   .btn { 
+     background: var(--school-red); 
+     color: white; 
+     padding: 12px 25px; 
+     border: none; 
+     border-radius: 8px; 
+     cursor: pointer; 
+     text-decoration: none; 
+     display: inline-block; 
+     margin-top: 15px; 
+     font-weight: bold;
+   }
+   .btn:hover { background: #c92e3a; }
+   
+  .grid { 
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 20px; 
+  margin-top: 20px; 
+}
+.grid img { 
+  width: 100%; 
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 8px; 
+  border: 2px solid var(--school-blue);
+}
+.card img { 
+  width: 100%; 
+  height: 180px; 
+  object-fit: cover; 
+  border-radius: 8px; 
+   h2 { color: var(--school-red); margin-bottom: 15px; border-left: 5px solid var(--school-yellow); padding-left: 10px; }
+   
+    footer { background: var(--dark); color: white; text-align: center; padding: 20px; margin-top: 40px; border-top: 5px solid var(--school-blue); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="C:\Users\User\Desktop\logo.png.jpeg" alt="FDMA Logo">
+    <h1>FAVOURED DESTINIES MONTESSORI ACADEMY</h1>
+    <p>ICT Club | "Towards Destiny Fulfilment"</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#activities">Activities</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Join Us</a>
+  </nav>
+
+  <section id="home" class="hero">
+    <h1>Welcome to the ICT Club</h1>
+    <p>Learning Coding, Robotics, Design & Digital Skills</p>
+    <a href="#contact" class="btn">Join the Club</a>
+  </section>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Us</h2>
+      <p>The FDMA ICT Club trains students in technology skills beyond the classroom. 
+      We focus on web development, graphic design, robotics, and digital literacy 
+      to help students achieve "Destiny Fulfilment" through technology.</p>
+    </section>
+
+    <section id="activities">
+      <h2>What We Do</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="Coding & Web Design.jpg" alt="Coding">
+          <h3>Coding & Web Design</h3>
+          <p>Learn HTML, CSS, Python and build real websites and apps.</p>
+        </div>
+        <div class="card">
+          <img src="Robotics.jpg" alt="Robotics">
+          <h3>Robotics</h3>
+          <p>Build and program robots using Arduino and sensors.</p>
+        </div>
+        <div class="card">
+          <img src="Graphics & Video.jpg" alt="Design">
+          <h3>Graphics & Video</h3>
+          <p>Learn Canva, Photoshop, and video editing for school projects.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="grid">
+        <img src="Club Activity.jpg" alt="Club Activity" style="border-radius:8px;">
+        <img src="Students Codinig.jpg" alt="Students Coding" style="border-radius:8px;">
+        <img src="Robotic Demo.jpg" alt="Robotics Demo" style="border-radius:8px;">
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Join the ICT Club</h2>
+      <p><b>Location:</b> Zuba - Abuja</p>
+      <p><b>Meetings:</b> Every Thursday 2:00pm - 3:00pm | ICT Lab</p>
+      <p><b>Contact:</b> ICT Club Coordinator | Email: ictclub@fdma.edu.ng</p>
+      <a href="mailto:ictclub@fdma.edu.ng" class="btn">Email Us</a>
+	
+  <footer>
+    <p>© 2026 Favoured Destinies Montessori Academy ICT Club. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
